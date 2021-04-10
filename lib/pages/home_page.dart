@@ -1,12 +1,5 @@
 part of 'pages.dart';
 
-const dataBoxName = "todo_data";
-enum TodoFilter {
-  ALL,
-  COMPLETED,
-  PROGRESS,
-}
-
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
